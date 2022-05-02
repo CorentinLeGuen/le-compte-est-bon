@@ -40,8 +40,12 @@ There is 3 main algorithms :
 
 To launch the program: 
 ```shell
-> python3 main.py
+python3 main.py
+```
 
+You should have a result like this :
+
+```
 {'numbers': [50, 3, 7, 100, 75, 6], 'target': 592}
 {'operations': ['75 - 7 = 68', '50 * 3 = 150', '150 - 68 = 82', '82 * 6 = 492', '492 + 100 = 592'], 'best': 592}
 ```
